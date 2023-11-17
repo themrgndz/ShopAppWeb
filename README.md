@@ -1,0 +1,2 @@
+# ShopApp
+Vize Ödevi
