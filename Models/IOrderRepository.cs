@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace ShopApp.Models {
+namespace SportsStore.Models {
 
     public interface IOrderRepository {
 

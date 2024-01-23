@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Linq;
 
-namespace ShopApp.Models {
+namespace SportsStore.Models {
 
     public class EFOrderRepository : IOrderRepository {
         private StoreDbContext context;

@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 
-namespace ShopApp.Models {
+namespace SportsStore.Models {
 
     public static class SeedData {
 

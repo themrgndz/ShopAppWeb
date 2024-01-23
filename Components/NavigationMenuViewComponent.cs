@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Linq;
-using ShopApp.Models;
+using SportsStore.Models;
 
-namespace ShopApp.Components {
+namespace SportsStore.Components {
 
     public class NavigationMenuViewComponent : ViewComponent {
         private IStoreRepository repository;

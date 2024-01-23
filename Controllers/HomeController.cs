@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ShopApp.Models;
+using SportsStore.Models;
 using System.Linq;
-using ShopApp.Models.ViewModels;
+using SportsStore.Models.ViewModels;
 
-namespace ShopApp.Controllers {
+namespace SportsStore.Controllers {
     public class HomeController : Controller {
         private IStoreRepository repository;
         public int PageSize = 4;

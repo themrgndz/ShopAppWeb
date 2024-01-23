@@ -3,10 +3,10 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Razor.TagHelpers;
-using ShopApp.Models.ViewModels;
+using SportsStore.Models.ViewModels;
 using System.Collections.Generic;
 
-namespace ShopApp.Infrastructure {
+namespace SportsStore.Infrastructure {
 
     [HtmlTargetElement("div", Attributes = "page-model")]
     public class PageLinkTagHelper : TagHelper {

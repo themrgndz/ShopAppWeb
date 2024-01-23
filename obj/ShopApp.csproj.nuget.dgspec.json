@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sansa\\source\\repos\\ShopApp\\ShopApp\\ShopApp.csproj": {}
+    "C:\\Users\\emrgn\\OneDrive\\Masaüstü\\ShopApp\\ShopApp\\ShopApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sansa\\source\\repos\\ShopApp\\ShopApp\\ShopApp.csproj": {
+    "C:\\Users\\emrgn\\OneDrive\\Masaüstü\\ShopApp\\ShopApp\\ShopApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sansa\\source\\repos\\ShopApp\\ShopApp\\ShopApp.csproj",
+        "projectUniqueName": "C:\\Users\\emrgn\\OneDrive\\Masaüstü\\ShopApp\\ShopApp\\ShopApp.csproj",
         "projectName": "ShopApp",
-        "projectPath": "C:\\Users\\sansa\\source\\repos\\ShopApp\\ShopApp\\ShopApp.csproj",
-        "packagesPath": "C:\\Users\\sansa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sansa\\source\\repos\\ShopApp\\ShopApp\\obj\\",
+        "projectPath": "C:\\Users\\emrgn\\OneDrive\\Masaüstü\\ShopApp\\ShopApp\\ShopApp.csproj",
+        "packagesPath": "C:\\Users\\emrgn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emrgn\\OneDrive\\Masaüstü\\ShopApp\\ShopApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sansa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\emrgn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,6 +45,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.27, )"
@@ -67,7 +76,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -79,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

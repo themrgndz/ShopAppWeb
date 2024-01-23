@@ -1,10 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using ShopApp.Infrastructure;
-using ShopApp.Models;
+using SportsStore.Infrastructure;
+using SportsStore.Models;
 using System.Linq;
 
-namespace ShopApp.Pages {
+namespace SportsStore.Pages {
 
     public class CartModel : PageModel {
         private IStoreRepository repository;

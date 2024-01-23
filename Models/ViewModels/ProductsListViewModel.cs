@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using ShopApp.Models;
+using SportsStore.Models;
 
-namespace ShopApp.Models.ViewModels {
+namespace SportsStore.Models.ViewModels {
 
     public class ProductsListViewModel {
         public IEnumerable<Product> Products { get; set; }

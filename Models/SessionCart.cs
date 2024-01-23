@@ -2,9 +2,9 @@
 using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
-using ShopApp.Infrastructure;
+using SportsStore.Infrastructure;
 
-namespace ShopApp.Models {
+namespace SportsStore.Models {
 
     public class SessionCart : Cart {
 

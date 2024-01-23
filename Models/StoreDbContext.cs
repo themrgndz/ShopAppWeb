@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace ShopApp.Models {
+namespace SportsStore.Models {
     public class StoreDbContext : DbContext {
 
         public StoreDbContext(DbContextOptions<StoreDbContext> options)

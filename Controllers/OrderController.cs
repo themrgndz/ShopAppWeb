@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ShopApp.Models;
+using SportsStore.Models;
 using System.Linq;
 
-namespace ShopApp.Controllers {
+namespace SportsStore.Controllers {
 
     public class OrderController : Controller {
         private IOrderRepository repository;

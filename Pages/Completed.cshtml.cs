@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace ShopApp.Pages
+namespace SportsStore.Pages
 {
     public class CompletedModel : PageModel
     {
